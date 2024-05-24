@@ -1,0 +1,14 @@
+programa
+inteiro i, n;
+decimal fatorial;
+escreva("Digite um número para calcular o fatorial");
+leia(n);
+fatorial = 1.0;
+para (i = 1; i <= n; i = i + 1) {
+    fatorial = fatorial * i;
+}
+escreva("O fatorial de ");
+escreva(n);
+escreva(" é ");
+escreva(fatorial);
+fimprog
